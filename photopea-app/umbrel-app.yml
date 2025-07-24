@@ -1,11 +1,11 @@
 manifestVersion: 1
-id: "photopea-app_server_1" # DEVE ser igual ao prefixo do APP_HOST
+id: "photopea-app" # <-- CORREÇÃO 1: Este é o ID correto do app
 name: "Photopea"
 tagline: "Online Photo Editor"
 icon: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Photopea_logo.svg/1200px-Photopea_logo.svg.png
 category: Graphics & Design
 version: "1.0.0"
-port: 8095 # DEVE ser a porta externa do docker-compose
+port: 8887 # <-- CORREÇÃO 2: A porta deve ser a mesma do docker-compose
 description: >-
   A free online editor supporting PSD, XCF, Sketch, XD and CDR formats, running locally on your Umbrel.
 
