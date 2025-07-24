@@ -2,7 +2,7 @@ manifestVersion: 1
 id: "photopea-app" # <-- CORREÇÃO 1: Este é o ID correto do app
 name: "Photopea"
 tagline: "Online Photo Editor"
-icon: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Photopea_logo.svg/1200px-Photopea_logo.svg.png
+icon: https://i.imgur.com/mJ8V0xT.png
 category: Graphics & Design
 version: "1.0.0"
 port: 8887 # <-- CORREÇÃO 2: A porta deve ser a mesma do docker-compose
@@ -11,13 +11,13 @@ description: >-
 
 developer: "Ivan Kuckir"
 website: https://www.photopea.com/
-submitter: "Seu Nome"
+submitter: "Alex Sandro Martins de Araujo"
 submission: "URL do seu repositório no GitHub"
 repo: "https://github.com/Photopea/photopea"
 support: "https://github.com/Photopea/photopea/issues"
 gallery:
-  - https://i.imgur.com/L4iFG4y.png
-  - https://i.imgur.com/7Zc8nQc.png
+  - https://i.imgur.com/CZ4rVEb.png
+  - https://i.imgur.com/T7VCjJk.png
 path: ""
 defaultUsername: ""
 defaultPassword: ""
