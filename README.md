@@ -10,7 +10,7 @@ Como Usar Essa Lojinha no seu Umbrel
 
 Copie a URL: Pegue a URL deste repositório. É essa aqui em cima, no seu navegador.
 
-https://github.com/SeuUsuario/seu-repositorio
+[https://github.com/SeuUsuario/seu-repositorio](https://github.com/uareke/photopea-umbrel.git)
 (Lembre-se de trocar "SeuUsuario" e "seu-repositorio" pelos seus nomes de verdade!)
 
 Vá no seu Umbrel: Abra o painel do seu Umbrel, vá na App Store e clique naqueles três pontinhos (⋮) no canto superior direito.
