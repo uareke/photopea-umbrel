@@ -1,0 +1,23 @@
+manifestVersion: 1
+id: "photopea-app_server_1" # DEVE ser igual ao prefixo do APP_HOST
+name: "Photopea"
+tagline: "Online Photo Editor"
+icon: https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Photopea_logo.svg/1200px-Photopea_logo.svg.png
+category: Graphics & Design
+version: "1.0.0"
+port: 8095 # DEVE ser a porta externa do docker-compose
+description: >-
+  A free online editor supporting PSD, XCF, Sketch, XD and CDR formats, running locally on your Umbrel.
+
+developer: "Ivan Kuckir"
+website: https://www.photopea.com/
+submitter: "Seu Nome"
+submission: "URL do seu repositório no GitHub"
+repo: "https://github.com/Photopea/photopea"
+support: "https://github.com/Photopea/photopea/issues"
+gallery:
+  - https://i.imgur.com/L4iFG4y.png
+  - https://i.imgur.com/7Zc8nQc.png
+path: ""
+defaultUsername: ""
+defaultPassword: ""
