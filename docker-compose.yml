@@ -1,0 +1,16 @@
+version: "3.7"
+services:
+  app_proxy:
+    environment:
+      APP_HOST: photopea_app_1
+      APP_PORT: 80
+      PROXY_AUTH_ADD: "false"
+
+  photopea:
+    image: ramuses/photopea:latest 
+    container_name: photopea
+    restart: unless-stopped
+    ports:
+      - "8887:80" 
+    volumes:
+      - ./data:/config 

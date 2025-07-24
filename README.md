@@ -1,2 +1,2 @@
-# photopea-umbrel
-photopea-umbrel
+# my-umbrel-apps
+my-umbrel-apps
