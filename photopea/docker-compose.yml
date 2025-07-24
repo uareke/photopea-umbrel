@@ -1,16 +1,17 @@
 version: "3.7"
+
 services:
   app_proxy:
     environment:
-      APP_HOST: photopea_app_1
-      APP_PORT: 80
-      PROXY_AUTH_ADD: "false"
+      APP_HOST: photopea_server_1 # Formato correto: <id>_<serviço>_1
+      APP_PORT: 80 # Porta interna do contêiner Photopea
 
-  photopea:
-    image: ramuses/photopea:latest 
-    container_name: photopea
+  server: # Nome do serviço principal, pode ser qualquer coisa
+    image: ramuses/photopea:latest
+    user: "1000:1000" # Maneira correta de definir o usuário
+    init: true # Adicionado para estabilidade
     restart: unless-stopped
     ports:
-      - "8887:80" 
+      - "8887:80" # Mapeamento: 8095 (externa) -> 80 (interna)
     volumes:
       - ./data:/config 
