@@ -12,26 +12,36 @@ Copie a URL: Pegue a URL deste repositório. É essa aqui em cima, no seu navega
 
 [https://github.com/uareke/photopea-umbrel](https://github.com/uareke/photopea-umbrel)
 
+<img width="748" height="162" alt="image" src="https://github.com/user-attachments/assets/bd5784b3-978a-4a20-9982-834d0c863ce4" />
+
 Vá no seu Umbrel: Abra o painel do seu Umbrel, vá na App Store e clique naqueles três pontinhos (⋮) no canto superior direito.
+
+<img width="1469" height="696" alt="image" src="https://github.com/user-attachments/assets/6aec3218-6634-4f0e-b1e0-a6dbbaf31fd9" />
 
 Adicione a Loja: Clique em "Community App Stores" e depois em "Add App Store". Agora é só colar a URL que você copiou e dar "Add".
 
-Pronto! ✨ A mágica aconteceu. Agora você pode voltar pra App Store, pesquisar pelos apps abaixo e instalar com um clique.
+<img width="1404" height="345" alt="image" src="https://github.com/user-attachments/assets/8765a496-bada-447e-ac1c-b13b618fde3d" />
 
-Apps Disponíveis Atualmente
-Ícone
+<img width="507" height="454" alt="image" src="https://github.com/user-attachments/assets/13d0aa1c-9d67-4f30-91f1-73a15aeadcaa" />
+
+<img width="503" height="603" alt="image" src="https://github.com/user-attachments/assets/eb1a6182-c093-403c-86e7-6e8963840e9b" />
+
+<img width="1290" height="500" alt="image" src="https://github.com/user-attachments/assets/247c93ae-b3e8-4d63-9609-cb9cd3819d01" />
+
+
+
+Pronto! ✨ A mágica aconteceu. Agora você pode voltar pra App Store, pesquisar pelos apps abaixo e instalar com um clique.
 
 Aplicativo
 
 O que faz?
 
-🎨
-
-Photopea
+# 🎨 Photopea
 
 Um editor de imagens super potente, tipo um Photoshop, rodando direto no seu servidor.
 
-...
+<img width="1912" height="897" alt="image" src="https://github.com/user-attachments/assets/e0577e54-a577-47d2-8bc7-263274be83f9" />
+
 
 (Mais apps em breve!)
 
