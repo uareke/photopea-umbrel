@@ -3,7 +3,7 @@ version: "3.7"
 services:
   app_proxy:
     environment:
-      APP_HOST: photopea_server_1 # Formato correto: <id>_<serviço>_1
+      APP_HOST: uareke-store-photopea_server_1  # Formato correto: <id>_<serviço>_1
       APP_PORT: 80 # Porta interna do contêiner Photopea
 
   server: # Nome do serviço principal, pode ser qualquer coisa
