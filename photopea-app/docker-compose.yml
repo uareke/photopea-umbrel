@@ -11,4 +11,8 @@ services:
     user: "1000:1000"
     init: true
     restart: unless-stopped
+ 
+ dns: 
+      - 8.8.8.8 # DNS do Google
+      - 1.1.1.1 # DNS da Cloudflare 
 
