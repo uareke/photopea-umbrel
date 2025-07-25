@@ -7,7 +7,7 @@ services:
       APP_PORT: 80 
 
   server:
-    image: kovaszab/photopea:latest
+    image: m4th1eub/photopea-offline:latest
     user: "1000:1000"
     init: true
     restart: unless-stopped
