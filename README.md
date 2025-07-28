@@ -46,7 +46,7 @@ Um editor de imagens super potente, tipo um Photoshop, rodando direto no seu ser
 # Guia Fácil: Corrigindo o Problema das Fontes no Photopea ✒️
 Para resolver o problema com as fontes, vamos editar um script de atualização e executar um comando para baixar todas as fontes que estão faltando. Siga os passos abaixo!
 
-Passo 1: Acesse o Terminal do Contêiner
+### Passo 1: Acesse o Terminal do Contêiner
 Primeiro, vamos entrar no terminal do seu contêiner Photopea. Abra seu terminal e use o comando docker exec:
 
 Bash
@@ -55,7 +55,7 @@ docker exec -it photopea /bin/sh
 ```
 Nota: Este comando te dá acesso direto à linha de comando dentro do contêiner.
 
-Passo 2: Instale o Editor de Texto nano
+### Passo 2: Instale o Editor de Texto nano
 Para conseguirmos editar o arquivo, precisamos de um editor de texto. Vamos instalar o nano, que é simples e fácil de usar. Execute os dois comandos abaixo, um de cada vez:
 
 Bash
@@ -70,7 +70,7 @@ apk update
 apk add nano
 ```
 
-Passo 3: Edite o Script Updater.py
+### Passo 3: Edite o Script Updater.py
 Agora que temos o editor, vamos abrir o arquivo de configuração.
 
 Use o nano para abrir o arquivo:
@@ -298,7 +298,7 @@ O editor vai perguntar se você quer salvar. Digite Y (de Yes).
 
 Pressione Enter para confirmar o nome do arquivo.
 
-Passo 4: Execute a Atualização das Fontes
+### Passo 4: Execute a Atualização das Fontes
 Agora que o script foi atualizado, vamos executá-lo para que ele baixe todas as fontes.
 
 No terminal do contêiner, digite o seguinte comando:
